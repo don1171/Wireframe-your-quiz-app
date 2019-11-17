@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
- 
+
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
@@ -10,25 +10,34 @@
     <title>Financial and Federal Taxation Quiz</title>
     <link rel='stylesheet' href='style.css'>
 </head>
+
 <body>
 
-    <header>
-        <h1>Financial and Federal Taxation Quiz</h1>
-    </header>
-
-    <form>
-        <ul>
-            <li>question 1</li>
-            <li>question 2</li>
-            <li>question 3</li>
-            <li>question 4</li>
-        </ul>
-    </form>
+    <main role="main" class="container">
+        <header>
+            <h1>Financial and Federal Taxation Quiz</h1>
+            <section>
+                <ul>
+                    <li>Question:<span id='js-Question-Number'>0</span>/5</li>
+                    <li>Score:<span id='js-Score'>0</span></li>
+                </ul>
+            </section>
+        </header>
+        <section id='js-Start-Quiz'>
+            <h2>"Quiz decription goes here."</h2>
+            <button type='button' class='js-Start-Button css-Start-Button'>Start</button>
+        </section>
+        <section id='js-Question-Box'>"Questions go here."</section>
+        <section id='js-Response-Box'>"Responses go here."</section>
+        <section id='js-Result-Box'>"Results go here."</section>
+    </main>
 
     <footer>
-
     </footer>
 
-    <link rel='stylesheet' href='script.js'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
